@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonSendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi Tin Nhắn" />
+
+    <Button
+        android:id="@+id/buttonJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonExitMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
